@@ -1,6 +1,9 @@
 import './app.css';
-const { default: Sidebar } = require('./components/sidebar/Sidebar');
-const { default: Topbar } = require('./components/topbar/Topbar');
+import Home from './pages/home/Home';
+import Topbar from './components/topbar/Topbar';
+import Sidebar from './components/sidebar/Sidebar';
+// const { default: Sidebar } = require('./components/sidebar/Sidebar');
+// const { default: Topbar } = require('./components/topbar/Topbar');
 
 function App() {
 	return (
@@ -8,7 +11,7 @@ function App() {
 			<Topbar />
 			<div className="container">
 				<Sidebar />
-				<div className="other">Other</div>
+				<Home />
 			</div>
 		</div>
 	);
