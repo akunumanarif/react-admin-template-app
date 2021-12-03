@@ -4,7 +4,7 @@ import { DeleteForever } from '@material-ui/icons';
 
 export default function UserLists() {
 	const columns = [
-		{ field: 'id', headerName: 'ID', width: 70 },
+		{ field: 'id', headerName: 'ID', width: 110 },
 		{
 			field: 'username',
 			headerName: 'User',
@@ -129,7 +129,7 @@ export default function UserLists() {
 				disableSelectionOnClick
 				columns={columns}
 				pageSize={8}
-				//rowsPerPageOptions={[ 5 ]}
+				rowsPerPageOptions={[ 5 ]}
 				checkboxSelection
 			/>
 		</div>
