@@ -1,0 +1,19 @@
+.product {
+	flex: 4;
+	margin-left: 250px;
+}
+
+.productTitleContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.pruductAddButton {
+	padding: 10px;
+	border-radius: 10px;
+	border-style: none;
+	cursor: pointer;
+	background-color: aqua;
+}
